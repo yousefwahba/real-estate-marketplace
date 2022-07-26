@@ -32,11 +32,13 @@ const Offers = () => {
           listingsRef,
           where("offer", "==", true),
           orderBy("timestamp", "desc"),
-          limit(10)
+          limit(3)
         );
 
         // Execute query
         const querySnap = await getDocs(q);
+        const lastVisible = querySnap.docs[querySnap.docs.length - 1];
+        setLastFechedListing(lastVisible);
         const listings = [];
 
         querySnap.forEach((doc) => {
@@ -66,12 +68,13 @@ const Offers = () => {
         where("offer", "==", true),
         orderBy("timestamp", "desc"),
         startAfter(lastFechedListing),
-        limit(10)
+        limit(4)
       );
 
       // Execute query
       const querySnap = await getDocs(q);
-      const lastVisible = querySnap.docs(querySnap.docs.length - 1);
+      const lastVisible = querySnap.docs[querySnap.docs.length - 1];
+      setLastFechedListing(lastVisible);
       const listings = [];
 
       querySnap.forEach((doc) => {
