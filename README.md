@@ -1,7 +1,7 @@
 # real estate marketplace
 
 It is a Marketplace for sale and rent houses
-[preview]()
+[preview](https://realstate-marketplace.vercel.app/)
 
 ## Features
 
