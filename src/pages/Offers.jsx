@@ -32,7 +32,7 @@ const Offers = () => {
           listingsRef,
           where("offer", "==", true),
           orderBy("timestamp", "desc"),
-          limit(5)
+          limit(4)
         );
 
         // Execute query

@@ -422,7 +422,7 @@ const CreateListing = () => {
           {/* Images */}
           <label className='formLabel'>Images</label>
           <p className='imagesInfo'>
-            The first image will be the cover (max 6).
+            The first image will be the cover (max 6)(max size 2MB).
           </p>
           <input
             className='formInputFile'
