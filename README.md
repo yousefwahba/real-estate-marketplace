@@ -3,6 +3,17 @@
 It is a Marketplace for sale and rent houses
 [preview](https://realstate-marketplace.vercel.app/)
 
+## Screenshots
+
+|                                              |                                              |                                              |
+| -------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
+| ![App Screenshot](./src/assets/readme/1.png) | ![App Screenshot](./src/assets/readme/2.png) | ![App Screenshot](./src/assets/readme/3.png) |
+|                                              |                                              |                                              |
+| ![App Screenshot](./src/assets/readme/4.png) | ![App Screenshot](./src/assets/readme/5.png) | ![App Screenshot](./src/assets/readme/6.png) |
+|                                              |                                              |                                              |
+| ![App Screenshot](./src/assets/readme/7.png) | ![App Screenshot](./src/assets/readme/8.png) | ![App Screenshot](./src/assets/readme/9.png) |
+
+
 ## Features
 
 - Email and google authentication
@@ -17,15 +28,6 @@ It is a Marketplace for sale and rent houses
 
 **back-end:** firebase , firestore
 
-## Screenshots
-
-|                                              |                                              |                                              |
-| -------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
-| ![App Screenshot](./src/assets/readme/1.png) | ![App Screenshot](./src/assets/readme/2.png) | ![App Screenshot](./src/assets/readme/3.png) |
-|                                              |                                              |                                              |
-| ![App Screenshot](./src/assets/readme/4.png) | ![App Screenshot](./src/assets/readme/5.png) | ![App Screenshot](./src/assets/readme/6.png) |
-|                                              |                                              |                                              |
-| ![App Screenshot](./src/assets/readme/7.png) | ![App Screenshot](./src/assets/readme/8.png) | ![App Screenshot](./src/assets/readme/9.png) |
 
 ## resources
 
